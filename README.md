@@ -3,6 +3,7 @@
 A visual node-based pipeline editor built with React and ReactFlow, backed by a Python/FastAPI server. Drag-and-drop nodes onto a canvas, connect them with edges, and submit the pipeline for DAG validation.
 
 **Live Demo**: [https://anjaliraj05.github.io/VectorShift/](https://anjaliraj05.github.io/VectorShift/)
+**Backend API**: [https://vectorshift-5drv.onrender.com](https://vectorshift-5drv.onrender.com)
 
 ## Tech Stack
 
@@ -10,7 +11,7 @@ A visual node-based pipeline editor built with React and ReactFlow, backed by a 
 |----------|-----------------------------------------|
 | Frontend | React 19, @xyflow/react v12, Zustand 5, Tailwind CSS 3, Vite 6 |
 | Backend  | Python, FastAPI, Pydantic, Uvicorn      |
-| Deploy   | GitHub Pages via GitHub Actions          |
+| Deploy   | Frontend: GitHub Pages · Backend: Render |
 
 ## Getting Started
 
