@@ -2,7 +2,7 @@
 
 A visual node-based pipeline editor built with React and ReactFlow, backed by a Python/FastAPI server. Drag-and-drop nodes onto a canvas, connect them with edges, and submit the pipeline for DAG validation.
 
-**Live Demo**: [https://anjaliraj05.github.io/vectorshift-technical-assessment/](https://anjaliraj05.github.io/vectorshift-technical-assessment/)
+**Live Demo**: [https://anjaliraj05.github.io/VectorShift/](https://anjaliraj05.github.io/VectorShift/)
 
 ## Tech Stack
 
