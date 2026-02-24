@@ -13,7 +13,10 @@ export const SubmitButton = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('http://localhost:8000/pipelines/parse', {
+      const apiBase = import.meta.env.PROD
+        ? 'https://vectorshift-backend-k498.onrender.com'
+        : 'http://localhost:8000';
+      const response = await fetch(`${apiBase}/pipelines/parse`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nodes, edges }),
