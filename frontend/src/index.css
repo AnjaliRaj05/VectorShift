@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ReactFlow overrides */
+.react-flow__edge-path {
+  stroke: #7C3AED;
+  stroke-width: 2;
+}
+
+.react-flow__edge.animated path {
+  stroke: #7C3AED;
+}
+
+.react-flow__connection-line {
+  stroke: #7C3AED;
+  stroke-width: 2;
+}
+
+.react-flow__controls button {
+  background: #1C2536;
+  color: #fff;
+  border: 1px solid #334155;
+}
+
+.react-flow__controls button:hover {
+  background: #2d3a4f;
+}
+
+.react-flow__minimap {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
