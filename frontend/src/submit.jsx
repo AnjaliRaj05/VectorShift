@@ -14,7 +14,7 @@ export const SubmitButton = () => {
   const handleSubmit = async () => {
     try {
       const apiBase = import.meta.env.PROD
-        ? 'https://vectorshift-backend-k498.onrender.com'
+        ? 'https://vectorshift-5drv.onrender.com'
         : 'http://localhost:8000';
       const response = await fetch(`${apiBase}/pipelines/parse`, {
         method: 'POST',
